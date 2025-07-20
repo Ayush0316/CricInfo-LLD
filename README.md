@@ -1,18 +1,30 @@
-## Getting Started
+# CricInfo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simplified backend design for a cricket information system, inspired by CricInfo. This project demonstrates core concepts of object-oriented design and low-level design (LLD) for managing cricket matches, teams, players, and statistics.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+- Manage teams, players, and match schedules
+- Record ball-by-ball events and match results
+- Track player and team statistics
+- Extensible design for supporting multiple match formats (ODI, T20, Test)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Technologies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Language: Java (or your preferred OOP language)
+- No external frameworks required
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Project Structure
 
-## Dependency Management
+- `dao/` - Core domain classes (Player, Team, Match, etc.)
+- `enums/` - Enums to maintain the states.
+- `interfaces/` - Defining contract for the services.
+- `services/` - Business logic and operations
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests.
+
+## License
+
+This project is licensed under the MIT License.
