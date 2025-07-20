@@ -24,7 +24,3 @@ A simplified backend design for a cricket information system, inspired by CricIn
 ## Contributing
 
 Contributions are welcome! Please open issues or submit pull requests.
-
-## License
-
-This project is licensed under the MIT License.
