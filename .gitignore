@@ -1,0 +1,43 @@
+# Compiled class files
+*.class
+
+# Build output directory
+/out/
+/bin/
+
+# VS Code project settings
+.vscode/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+
+# Files created by PowerShell build scripts
+sources.txt
+
+# IntelliJ IDEA (if ever opened with it)
+.idea/
+*.iml
+
+# Eclipse (if used later)
+*.classpath
+*.project
+*.settings/
+
+# Maven / Gradle (if used later)
+target/
+build/
+
+/src/out/
